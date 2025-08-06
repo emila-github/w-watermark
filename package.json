@@ -1,14 +1,22 @@
 {
   "name": "w-watermark",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lightweight watermark tool for web pages, supporting custom text, styles and positions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --env=jsdom"
   },
   "keywords": [
-    "watermark"
+    "watermark",
+    "vue-watermark",
+    "web-watermark",
+    "watermark-directive"
   ],
   "author": "emila-github",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emila-github/w-watermark.git"
+  },
+  "homepage": "https://github.com/emila-github/w-watermark#readme"
 }
